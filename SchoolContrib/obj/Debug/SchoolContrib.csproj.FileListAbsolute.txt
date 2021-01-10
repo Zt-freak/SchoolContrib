@@ -1,0 +1,10 @@
+C:\Users\bnkho\source\repos\SchoolContrib\SchoolContrib\bin\Debug\SchoolContrib.exe.config
+C:\Users\bnkho\source\repos\SchoolContrib\SchoolContrib\bin\Debug\SchoolContrib.exe
+C:\Users\bnkho\source\repos\SchoolContrib\SchoolContrib\bin\Debug\SchoolContrib.pdb
+C:\Users\bnkho\source\repos\SchoolContrib\SchoolContrib\obj\Debug\SchoolContrib.csprojAssemblyReference.cache
+C:\Users\bnkho\source\repos\SchoolContrib\SchoolContrib\obj\Debug\SchoolContrib.Form1.resources
+C:\Users\bnkho\source\repos\SchoolContrib\SchoolContrib\obj\Debug\SchoolContrib.Properties.Resources.resources
+C:\Users\bnkho\source\repos\SchoolContrib\SchoolContrib\obj\Debug\SchoolContrib.csproj.GenerateResource.cache
+C:\Users\bnkho\source\repos\SchoolContrib\SchoolContrib\obj\Debug\SchoolContrib.csproj.CoreCompileInputs.cache
+C:\Users\bnkho\source\repos\SchoolContrib\SchoolContrib\obj\Debug\SchoolContrib.exe
+C:\Users\bnkho\source\repos\SchoolContrib\SchoolContrib\obj\Debug\SchoolContrib.pdb
