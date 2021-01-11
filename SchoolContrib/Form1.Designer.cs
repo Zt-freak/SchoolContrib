@@ -43,12 +43,12 @@
             this.Student = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Birthday = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.RemoveStudentButton = new System.Windows.Forms.Button();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.InfoGridView = new System.Windows.Forms.DataGridView();
             this.Info = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.StartCalcButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.StudentList)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.InfoGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // AddStudentLabel
@@ -187,21 +187,21 @@
             this.RemoveStudentButton.UseVisualStyleBackColor = true;
             this.RemoveStudentButton.Click += new System.EventHandler(this.RemoveStudentButton_Click);
             // 
-            // dataGridView2
+            // InfoGridView
             // 
-            this.dataGridView2.AllowUserToAddRows = false;
-            this.dataGridView2.AllowUserToDeleteRows = false;
-            this.dataGridView2.AllowUserToResizeColumns = false;
-            this.dataGridView2.AllowUserToResizeRows = false;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.InfoGridView.AllowUserToAddRows = false;
+            this.InfoGridView.AllowUserToDeleteRows = false;
+            this.InfoGridView.AllowUserToResizeColumns = false;
+            this.InfoGridView.AllowUserToResizeRows = false;
+            this.InfoGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.InfoGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Info,
             this.Quantity});
-            this.dataGridView2.Location = new System.Drawing.Point(328, 203);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.ReadOnly = true;
-            this.dataGridView2.Size = new System.Drawing.Size(243, 150);
-            this.dataGridView2.TabIndex = 13;
+            this.InfoGridView.Location = new System.Drawing.Point(328, 203);
+            this.InfoGridView.Name = "InfoGridView";
+            this.InfoGridView.ReadOnly = true;
+            this.InfoGridView.Size = new System.Drawing.Size(243, 150);
+            this.InfoGridView.TabIndex = 13;
             // 
             // Info
             // 
@@ -223,6 +223,7 @@
             this.StartCalcButton.TabIndex = 14;
             this.StartCalcButton.Text = "Calculate contribution";
             this.StartCalcButton.UseVisualStyleBackColor = true;
+            this.StartCalcButton.Click += new System.EventHandler(this.StartCalcButton_Click);
             // 
             // Form1
             // 
@@ -230,7 +231,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(635, 397);
             this.Controls.Add(this.StartCalcButton);
-            this.Controls.Add(this.dataGridView2);
+            this.Controls.Add(this.InfoGridView);
             this.Controls.Add(this.RemoveStudentButton);
             this.Controls.Add(this.StudentList);
             this.Controls.Add(this.StudentListLabel);
@@ -248,7 +249,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.StudentList)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.InfoGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -269,7 +270,7 @@
         private System.Windows.Forms.Label StudentListLabel;
         private System.Windows.Forms.DataGridView StudentList;
         private System.Windows.Forms.Button RemoveStudentButton;
-        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridView InfoGridView;
         private System.Windows.Forms.DataGridViewTextBoxColumn Info;
         private System.Windows.Forms.DataGridViewTextBoxColumn Quantity;
         private System.Windows.Forms.Button StartCalcButton;
